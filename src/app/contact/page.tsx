@@ -27,7 +27,7 @@ export default function Contact() {
             <p className="text-center font-semibold text-lg ">moizqureshi782008@gmail.com</p>
         </form>
       </div>
-      <div className="flex-1 flex pt-24 sm:pl-52 lg:pl-3 hidden md:block lg:block xl:block">
+      <div className="flex-1 pt-24 sm:pl-52 lg:pl-3 hidden md:block lg:block xl:block">
         <Image src={liftpic} alt="Contact Image" width={370} height={200} className="rounded "/>
       </div>
     </div>

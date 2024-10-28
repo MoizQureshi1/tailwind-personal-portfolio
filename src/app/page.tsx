@@ -5,7 +5,7 @@ export default function Hero (){
 
   return(
     <main className="bg-cover bg-center max-w-screen-2xl mx-auto" style={{ backgroundImage: "url('/background.png')" }}>
-      <div className="lg:pl-20 lg:pr-36 lg:flex lg:pt-10 lg:pt-28 pt-10 px-10 pb-32">
+      <div className="lg:pl-20 lg:pr-36 lg:flex lg:pt-40 pt-10 px-10 pb-32">
           <Image src={moiz} alt="moizimage" width={230} height={100} className="border-4 border-blue-800 rounded-full lg:ml-10 ml-14"/>
         <div className="lg:pl-14">
           <h2 className="text-6xl font-bold text-white lg:pb-6 pb-3">Hello! <br /> I m Moiz Qureshi</h2>
