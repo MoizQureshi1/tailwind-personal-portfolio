@@ -21,7 +21,7 @@ export default function Header (){
                         </li>
                     </ul>
                     <Sheet>
-                        <SheetTrigger className="md:hidden text-3xl"><IoMdMenu /></SheetTrigger>
+                        <SheetTrigger className="md:hidden text-3xl bg-sky-600"><IoMdMenu /></SheetTrigger>
                         <SheetContent>
                         <ul>
                             <li className="flex flex-col gap-6 text-lg font-semibold pt-1 ">

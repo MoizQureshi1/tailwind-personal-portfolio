@@ -6,7 +6,7 @@ export default function Contact() {
     <section className="bg-cover bg-center max-w-screen-2xl mx-auto pb-20" style={{ backgroundImage: "url('/contactbg.png')" }}>
     <div className="flex flex-col lg:flex-row md:pr-40 lg:pr-40">
     <div className="flex-1 flex items-center justify-center lg:pl-52 lg:pt-24 md:pl-52 md:pt-24 pt-24 pl-6">
-        <form className="md:bg-white lg:bg-white bg-gray-400 shadow-md rounded-lg p-8 w-full max-w-lg">
+        <form className="md:bg-white lg:bg-white bg-gray-400 shadow-md rounded-lg p-8 mr-6 w-full max-w-lg">
           <h2 className="text-2xl font-bold mb-6">Contact Us</h2>
           <div className="mb-4">
             <label className="block text-sm font-medium mb-2" htmlFor="name">Name</label>
