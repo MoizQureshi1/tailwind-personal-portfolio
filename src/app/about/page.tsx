@@ -1,5 +1,6 @@
 import Image from "next/image";
 import moizabout from "../../../public/moizabout.jpg"
+import Skill from "../component/skill";
 
 export default function Aboutpage (){
     return(
@@ -14,9 +15,10 @@ export default function Aboutpage (){
                     <p className="text-center font-semibold text-gray-300">As a front-end developer, I excel in HTML, CSS, and JavaScript, creating dynamic and responsive web applications. Proficient in Next.js for optimized performance and SEO. Committed to delivering intuitive user experiences and collaborating effectively with design and development teams.</p>
                 </div>
                 <div className="text-center py-8">
-                    <a href="/about"><button className="border-2 p-2 pl-8 pr-8 border-2 border-teal-500 transition duration-300 ease-in-out bg-sky-500 hover:bg-teal-400 text-lg font-semibold rounded-md text-teal-900 hover:text-sky-500">Read More</button></a>
+                    <a href="/about"><button className="border-2 p-2 pl-8 pr-8 border-teal-500 transition duration-300 ease-in-out bg-sky-500 hover:bg-teal-400 text-lg font-semibold rounded-md text-teal-900 hover:text-sky-500">Read More</button></a>
                 </div>
             </div>
+            <Skill/>
         </main>
     )
 }
