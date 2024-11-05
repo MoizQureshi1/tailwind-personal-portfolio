@@ -6,7 +6,7 @@ export default function Hero (){
   return(
     <main className="bg-cover bg-center max-w-screen-2xl mx-auto" style={{ backgroundImage: "url('/background.png')" }}>
       <div className="lg:pl-20 lg:pr-36 lg:flex lg:pt-40 text-center sm:text-start pt-10 px-10 pb-32">
-          <Image src={moiz} alt="moizimage" width={230} height={100} className="border-4 border-blue-800 ml-10 rounded-full lg:ml-10"/>
+          <Image src={moiz} alt="moizimage" width={230} height={100} className="border-4 border-blue-800 ml-6 rounded-full lg:ml-10"/>
         <div className="lg:pl-14">
           <h2 className="text-6xl font-bold text-white lg:pb-6 pb-3">Hello! <br /> I m Moiz Qureshi</h2>
           <p className="lg:pr-60 text-black font-semibold">As a front-end developer, I excel in HTML, CSS, and JavaScript, creating dynamic and responsive web applications. Proficient in Next.js for optimized performance and SEO. <span className="hidden lg:block">Committed to delivering intuitive user experiences and collaborating effectively with design and development teams.</span></p>
