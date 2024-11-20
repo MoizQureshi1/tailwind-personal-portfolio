@@ -1,7 +1,5 @@
 import Image from "next/image";
 import moizabout from "../../../public/moizabout.jpg"
-import Skill from "../component/skill";
-
 export default function Aboutpage (){
     return(
         <main className="bg-cover bg-center max-w-screen-2xl mx-auto" style={{ backgroundImage: "url('/aboutbg.png')" }}>
@@ -18,7 +16,6 @@ export default function Aboutpage (){
                     <a href="/about"><button className="border-2 p-2 pl-8 pr-8 border-teal-500 transition duration-300 ease-in-out bg-sky-500 hover:bg-teal-400 text-lg font-semibold rounded-md text-teal-900 hover:text-sky-500">Read More</button></a>
                 </div>
             </div>
-            <Skill/>
         </main>
     )
 }
